@@ -77,7 +77,7 @@ const t = 5;
 ```
 ````
 
-![Code title example](./images/title.png)
+![Basic Header Example](./images/title.png)
 
 ### No Title
 
@@ -89,7 +89,7 @@ const t = 5;
 ```
 ````
 
-![Code title example](./images/default.png)
+![Default Title Example](./images/default.png)
 
 ### Hide the title and the default extension
 
@@ -99,4 +99,4 @@ const t = 5;
 ```
 ````
 
-![Code title example](./images/skip-title.png)
+![No Header Example](./images/skip-title.png)
