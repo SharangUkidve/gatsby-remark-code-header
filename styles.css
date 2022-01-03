@@ -1,0 +1,49 @@
+.gatsby-remark-code-header {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: #38383a;
+  color: #fffffff7;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+}
+
+.gatsby-remark-code-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-transform: lowercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  transform: translate(-50%, -50%);
+}
+
+.mac-btns {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mac-btn {
+  height: 0.75rem;
+  width: 0.75rem;
+  border-radius: 50%;
+  margin: 0 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.mac-btn.color-close {
+  background-color: #ed6a5e;
+}
+
+.mac-btn.color-minimise {
+  background-color: #f5bf4f;
+}
+
+.mac-btn.color-fullscreen {
+  background-color: #62c554;
+}

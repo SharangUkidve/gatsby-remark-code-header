@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-remark-code-header",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Sharang Ukidve",
+    "email": "ukidve.sharang@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharangUkidve/gatsby-remark-code-header.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-remark-plugin",
+    "code-snippets",
+    "code-snippet-header"
+  ],
+  "dependencies": {
+    "unist-util-visit": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "cross-env": "^7.0.3"
+  },
+  "scripts": {
+    "build": "babel src --out-dir ."
+  }
+}
