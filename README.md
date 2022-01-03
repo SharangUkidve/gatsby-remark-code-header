@@ -50,14 +50,8 @@ plugins: [
   options: {
     gatsbyRemarkPlugins: [
       `gatsby-transformer-remark`,
-      `gatsby-remark-code-parser`,
       `gatsby-remark-code-header`,
-      {
-        resolve: `gatsby-remark-prismjs`,
-        options: {
-          inlineCodeMarker: '%',
-        },
-      }
+      `gatsby-remark-prismjs`
     ]
   }
 }
