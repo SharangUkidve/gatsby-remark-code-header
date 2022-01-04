@@ -4,7 +4,11 @@ Add a header with mac like icons before each code snippet block. By default it a
 
 ## Installation
 
-`npm install gatsby-remark-code-header`
+```bash
+npm install gatsby-remark-code-header
+```
+
+This plugin assumes that you are using [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/).
 
 ## Global Options
 
@@ -16,6 +20,7 @@ Add a header with mac like icons before each code snippet block. By default it a
 ## Inline Options
 
 `Add {skipTitle} for snippets to be shown without titles.`
+`Add {title: index.html}` to show "index.html" as the snippet title.
 
 ## Including the Plugin
 
