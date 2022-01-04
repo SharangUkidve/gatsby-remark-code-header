@@ -13,8 +13,11 @@ This plugin assumes that you are using [gatsby-transformer-remark](https://www.g
 ## Global Options
 
 `headerClassName`: The class name to use for the header. By default the class "gatsby-remark-code-header" is applied to the header.
+
 `titleClassName`: The class name to use for the title. By default the class "gatsby-remark-code-title" is applied to the title.
+
 `addExtensionTitle`: Defaults to `true`. Adds the language of the snippet as the title if no title is provided.
+
 `showHeaderButtons`: Defaults to `true`. Shows mac-like buttons on the header.
 
 ## Inline Options
