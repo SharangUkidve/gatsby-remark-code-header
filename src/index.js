@@ -57,8 +57,6 @@ module.exports = (
       node.meta = ``;
     }
 
-    console.log(node.value);
-
     const titleNode = {
       type: `html`,
       value: `<div class="${getComputedClassName(
