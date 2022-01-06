@@ -22,8 +22,8 @@ This plugin assumes that you are using [gatsby-transformer-remark](https://www.g
 
 ## Inline Options
 
-`Add {skipTitle} for snippets to be shown without titles.`
-`Add {title: index.html}` to show "index.html" as the snippet title.
+Add `{skipTitle}` for snippets to be shown without titles.
+Add `{title: index.html}` to show "index.html" as the snippet title.
 
 ## Including the Plugin
 
